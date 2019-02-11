@@ -1,0 +1,53 @@
+body {
+  background: #fff;
+  color: #232323;
+  width: 100%; }
+
+nav {
+  padding-top: 50px; }
+
+#home-section {
+  background: url(../img/background-image.jpg) no-repeat;
+  min-height: 800px;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+  #home-section .fas {
+    font-size: 100px;
+    color: #232323; }
+  #home-section .nav-link {
+    color: #232323; }
+    #home-section .nav-link:hover {
+      border-bottom: 1px solid black;
+      padding-bottom: 4px; }
+
+#portfolio-section {
+  background-color: #232323;
+  color: #fff; }
+  #portfolio-section img {
+    width: 100%;
+    height: 100%; }
+
+#about-section img {
+  width: 100%; }
+
+#about-section .middle {
+  visibility: hidden; }
+
+#about-section .overlay-1:hover img {
+  opacity: 0.1; }
+
+#about-section .overlay-1:hover .middle {
+  visibility: visible; }
+
+#about-section blockquote {
+  font-size: 1rem; }
+
+#contact-section .fab {
+  font-size: 2.7em; }
+
+#contact-section h2 {
+  font-size: 2.5rem; }
+
+#footer-main .fas {
+  font-size: 37px; }
